@@ -36,23 +36,23 @@
 	 			<a class="navbar-brand" href="/"><img src="images/logo.png"></a>
 	 			<div class="nav-collapse collapse navbar-responsive-collapse">
 	 				<ul class="nav navbar-nav">
-	 					<li>
+	 					<li class="active">
 	 						<a href="#">Inicio</a>
 	 					</li>
 	 					<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">figma</a>
+									<a href="figma.html">figma</a>
 								</li>
    								<li>
-									<a href="#">nendoroid</a>
+									<a href="nendoroid.html">nendoroid</a>
 								</li>
 								<li>
-									<a href="#">Revoltech</a>
+									<a href="revoltech.html">Revoltech</a>
 								</li>
 								<li>
-									<a href="#">PVC</a>
+									<a href="pvc.html">PVC</a>
 								</li>
 
 								<li class="divider"></li>
@@ -60,17 +60,17 @@
 									Mas Lineas
 								</li>
 								<li>
-									<a href="#">Cupoche</a>
+									<a href="cupoche.html">Cupoche</a>
 								</li>
 								<li>
-									<a href="#">Beach Queen</a>
+									<a href="figuarts.html">Figuarts Zero</a>
 								</li>
 							</ul><!-- fin del DROPDOWN MENU -->
 	 					</li>	
 	 					<li><!-- Quienes Somos-->
 	 						<a href="quienes_somos.html">Quienes Somos</a>
 	 					</li><!-- fin del Quienes somos-->
-	 					<li  class="active"><!-- FAQ-->
+	 					<li><!-- FAQ-->
 	 						<a href="faq.html">F.A.Q.</a>
 	 					</li><!-- fin del FAQ-->
 	 					<li><!-- Contactenos-->
@@ -103,17 +103,49 @@
 	 			</div><!-- fin del NAV COLLAPSE -->
 	 		</div><!--FIN del  container en el NAV -->
 	 	</div><!-- fin del NAV bar superior -->
-	 	
-	 	<div class="row">
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-	 	</div>
+	 	<div class="carousel slide" id="mycarousel">
+	 			 		<!-- BOLITAS INDICADORAS-->
+	 			 		<ol class="carousel-indicators">
+	 			 			<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+	 			 			<li data-slide-to="1" data-target="#mycarousel"></li>
+	 			 			<li data-slide-to="2" data-target="#mycarousel"></li>
+
+	 			 		</ol>
+
+	 		<!-- WRAPPER -->
+	 		<div class="carousel-inner">
+	 			<div class="item active" id="slide1">
+	 				<div class="carousel-caption">
+	 					<h4>TOYCHAN</h4>
+	 					<p>Bienvenido a toychan somos una tienda de anime comics y figuras</p>
+	 				</div><!-- fin texto sobre imagen -->
+	 			</div><!-- fin ITEM -->
+	 		
+	 		<!-- WRAPPER -->
+	 		
+	 			<div class="item" id="slide2">
+	 				<div class="carousel-caption">
+	 					<h4>La tienda</h4>
+	 					<p>Estamos ubicados en 9 de octubre #703 y carchi C.C. Boutiques del Boulevar Local# 5</p>
+	 				</div><!-- fin texto sobre imagen -->
+	 			</div><!-- fin ITEM -->
+	 		
+	 		<!-- WRAPPER -->
+	 		
+	 			<div class="item" id="slide3">
+	 				<div class="carousel-caption">
+	 					<h4>Pedidos</h4>
+	 					<p>Aceptamos pedidos de todo tipo</p>
+	 				</div><!-- fin texto sobre imagen -->
+	 			</div><!-- fin ITEM -->
+	 		</div><!-- fin inner -->
+				<!--Flechitas control -->
+				<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
 
 
+
+	 	</div><!-- fin CARROUSEL -->
 
 	 	<div class="row" id="bigcallout">
 	 		
